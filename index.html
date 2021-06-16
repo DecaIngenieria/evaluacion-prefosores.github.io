@@ -1,69 +1,156 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Evaluacion Trienal</title>
-<style>
-h1 {text-align: center;}
-h3 {text-align: center;}
-.content-rows{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-</style>
-<style>
-.container-column {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	align-content: center;
-	justify-content: center;
-	margin: 0px 10px 0px 10px;
-}
-.rectangle {
-	height: 100px;
-	width: 100%;
-	background-color: #9BC4E2;
-	margin-bottom: 20px;
-	display: flex;
-	flex-direction: column;
-	align-content: center;
-	justify-content: center;
-}
-.centered-link {
-	text-align: center;
-	font-size: 20;
-}
-</style>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylessheet.css">
 </head>
+
 <body>
+    <div class="doc-body">
+        <div class="title-row">
 
-<div>
-	<h1>Evaluación Trienal de Profesores</h1>
-	<h1>Facultad de ingeniería</h1>
-	<h3>2021</h3>
-</div>
+            <div class="art-box">
+                <img src="Logo-02.svg" alt="Faculty logo">
 
-<div>
-	<div class="content-rows">
-		<div class="container-column">
-			<div class="rectangle">
-				<h1>Docencia Directa</h1>
-			</div>
-			<a class="centered-link" href='Reportes/CategoriasOrdenamientos.html'>Categorias Ordenamientos</a>
-		</div>
-		<div class="container-column">
-			<div class="rectangle">
-				<h1>Producción Académica</h1>
-			</div>
-			<a class="centered-link" href='Reportes/CursosVerano.html'>Reporte Indicadores de Cursos de Verano</a>
-		</div>
-		<div class="container-column">
-			<div class="rectangle">
-				<h1>Desarrollo Institucional</h1>
-			</div>
-			<a class="centered-link" href='Reportes/ConveniosAcademicos.html'>Reporte Indicadores de Convenios</a>
-		</div>
-	</div>
+            </div>
+
+            <div class="title-box">
+                <div class="title">
+                    Sistema de <br>
+                    Indicadores
+                </div>
+                <div class="subtitle">
+                    2021
+                </div>
+            </div>
+        </div>
+
+        <div class="row-box">
+            <div class="box box1 box-padding">
+                <div class="box-title">
+                    Cursos Impartidos
+                </div>
+
+                <div class="icon-container" >
+                    <a class="icon-row" href="Reportes/CursosImpartidos.html">
+                        <img class="box-icon" src="mas-01.svg" alt="go to dashboard">
+                    </a>
+                </div>
+            </div>
+
+            <div class="box box2 box-padding">
+                <div class="box-title">
+                    Cursos de Verano
+                </div>
+
+                <div class="icon-container" >
+                    <a class="icon-row" href="Reportes/CursosVerano.html">
+                        <img class="box-icon" src="mas-01.svg" alt="go to dashboard">
+                    </a>
+                </div>
+            </div>
+
+            <div class="box box3 box-padding">
+                <div class="box-title">
+                    Educación Continua
+                </div>
+
+                <div class="icon-container" >
+                    <a class="icon-row" href="'Reportes/EducacionContinua.html">
+                        <img class="box-icon" src="mas-01.svg" alt="go to dashboard">
+                    </a>
+                </div>
+            </div>
+
+            <div class="box box4 box-padding">
+                <div class="box-title">
+                    Convenios Académicos
+                </div>
+
+                <div class="icon-container" >
+                    <a class="icon-row" href="Reportes/ConveniosAcademicos.html">
+                        <img class="box-icon" src="mas-01.svg" alt="go to dashboard">
+                    </a>
+                </div>
+            </div>
+
+            <div class="box box5">
+                <div class="box-title">
+                    Innovación Pedagógica
+                </div>
+
+                <div class="icon-container" >
+                    <a class="icon-row" href="Reportes/InnovacionPedagogica.html">
+                        <img class="box-icon" src="mas-01.svg" alt="go to dashboard">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row-box">
+            <div class="box box5 box-padding">
+                <div class="box-title">
+                    Proyectos
+                </div>
+
+                <div class="icon-container" >
+                    <a class="icon-row" href="Reportes/Proyectos.html">
+                        <img class="box-icon" src="mas-01.svg" alt="go to dashboard">
+                    </a>
+                </div>
+            </div>
+
+            <div class="box box4 box-padding">
+                <div class="box-title">
+                    Tesis
+                </div>
+
+                <div class="icon-container" >
+                    <a class="icon-row" href="Reportes/Tesis.html">
+                        <img class="box-icon" src="mas-01.svg" alt="go to dashboard">
+                    </a>
+                </div>
+            </div>
+
+            <div class="box box1 box-padding">
+                <div class="box-title">
+                    Tesis Doctorado
+                </div>
+
+                <div class="icon-container" >
+                    <a class="icon-row" href="Reportes/TesisDoctorado.html">
+                        <img class="box-icon" src="mas-01.svg" alt="go to dashboard">
+                    </a>
+                </div>
+            </div>
+
+            <div class="box box2 box-padding">
+                <div class="box-title">
+                    Categorías
+                </div>
+
+                <div class="icon-container" >
+                    <a class="icon-row" href="Reportes/Categorias.html">
+                        <img class="box-icon" src="mas-01.svg" alt="go to dashboard">
+                    </a>
+                </div>
+            </div>
+
+            <div class="box box3">
+                <div class="box-title">
+                    Investigación
+                </div>
+
+                <div class="icon-container" >
+                    <a class="icon-row" href="Reportes/Investigacion.html">
+                        <img class="box-icon" src="mas-01.svg" alt="go to dashboard">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
