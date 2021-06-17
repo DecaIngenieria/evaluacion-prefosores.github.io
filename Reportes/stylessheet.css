@@ -110,3 +110,10 @@
     flex-direction: row-reverse;
     width: 100%;
 }
+
+.info-row{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 1vw;
+}
