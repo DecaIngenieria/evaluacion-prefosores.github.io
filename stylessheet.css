@@ -117,3 +117,8 @@
     text-align: center;
     padding-bottom: 1vw;
 }
+.sticky {
+    position: fixed;
+    bottom: 0;
+    width: 100%
+  }
